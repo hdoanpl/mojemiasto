@@ -8,57 +8,98 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Bare - Start Bootstrap Template</title>
+  <title>Moje Miasto Moją Muzą</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+       
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <nav class="navbar navbar-expand-lg navbar-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#"><img src="assets/logo.svg" style="height: 50%; width: 50%;"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
     </div>
   </nav>
 
   <!-- Page Content -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="mt-5">A Bootstrap 4 Starter Template</h1>
-        <p class="lead">Complete with pre-defined file paths and responsive navigation!</p>
-        <ul class="list-unstyled">
-          <li>Bootstrap 4.5.0</li>
-          <li>jQuery 3.5.1</li>
-        </ul>
+      <div class="col-lg-12">
+    <div class="wrapper">
+      <div class="news-item hero-item">
+          <div class="absolute-h1 textWhite top left">
+          <h1>Jesteś z Łodzi?<br> Tworzysz sztukę?</h1><br>
+            <p>Zgłoś się do naszego konkursu i pokaż Polsce swój talent!</p>
+<div class="multi-button">
+  <button onclick="window.location.href='#form'">Zarejestruj się</button>
+  <button onclick="window.location.href='assets/regulamin.pdf'">Zarejestruj się</button>
+</div>
+</div>
+
       </div>
+      <div class="news-item standard-item">
+          <div class="top text-white text-center">
+              <div class="number" style="display: block; -webkit-clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
+    clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
+">1.</div>
+              <br>
+    <h2>Zgłoś swoją pracę</h2>
+              <br>
+</div>
+
+      </div>
+      <div class="news-item standard-item">
+          <div class="top text-white text-center">
+              <div class="number" style="display: block; -webkit-clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
+    clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
+">2.</div>
+              <br>
+    <h2>Wybierzemy<br> najlepszych artystów</h2>
+              <br>
+</div>
+      </div>
+      <div class="news-item standard-item">          
+<div class="top text-center textWhite">
+              <div class="number" style="display: block; -webkit-clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
+    clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
+">3.</div>
+    <br>
+    <h2>Widzimy się na wernisażu w Łódzkim Domu Kultury!<br> nie czekaj! Będzie jedzenie :3</h2>
+<br>
+    <p>...ale tylko dla wybranych</p>
+          </div>
+
+      </div>
+</div>
+       </div>
     </div>
   </div>
+    <section id="form" style="margin-top: 5em;">
+        <div class="text-center">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflRt9kcjzdKTx7p1lKIaJAF4sE1ik4qK2TC89CLTw4YxYZJg/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
+        </div>
+    </section>
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/">lodz.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
