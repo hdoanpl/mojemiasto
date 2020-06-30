@@ -10,8 +10,12 @@ h1, h2, h3 {
 }
 p {
     font-family: 'Comfortaa', cursive;
-    background-color: turquoise;
     display: inline-table;
+}
+
+.p-1 {
+    font-family: 'Comfortaa', cursive;
+        background-color: turquoise;
 }
 
 .number {
@@ -205,4 +209,8 @@ p {
 }
 .freebirdFormviewerViewFooterFooterContainer {
     display: none !important
+}
+
+.img {
+    margin-bottom: 5px 5px 0 30px;
 }
